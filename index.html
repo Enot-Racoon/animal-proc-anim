@@ -10,12 +10,14 @@
       padding: 0;
       overflow: hidden;
     }
-    canvas {
-      display: block;
+    #root {
+      width: 100vw;
+      height: 100vh;
     }
   </style>
 </head>
 <body>
-  <script type="module" src="/src/sketch.ts"></script>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
 </body>
 </html>
